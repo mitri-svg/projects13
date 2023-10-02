@@ -12,6 +12,17 @@
 }
 .img::before{
     background-size: cover;
+    position: absolute;
+    margin-top: 70px;
+    scale: 0;
+    text-decoration: underline;
+    width: 221px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    height: 221px;
+    margin-top: -0px;
+    border-radius: 50%;
+    transition: .8s;
 }
 .img1::before{
     content: 'iPhone';
@@ -29,9 +40,6 @@
     margin-top: -0px;
     background-image: url(anar.jpeg);
 }
-.img1:hover::before{
-    scale: 1;
-}
 .img2::before{
     content: 'Siuuuu';
     position: absolute;
@@ -48,84 +56,30 @@
     margin-top: -0px;
     background-image: url(hemid.jpeg);
 }
-.img2:hover::before{
+.img:hover::before{
     scale: 1;
 }
 .img3::before{
     content: 'Bicaq';
-    position: absolute;
-    margin-top: 70px;
-    scale: 0;
-    text-decoration: underline;
-    width: 221px;
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    height: 221px;
     border-radius: 50%;
     transition: .8s;
     margin-left: -89px;
-    margin-top: -0px;
     background-image: url(leyla.jpeg);
-}
-.img3:hover::before{
-    scale: 1;
 }
 .img4::before{
     content: 'Nokia 3311';
-    position: absolute;
-    margin-top: 70px;
-    scale: 0;
-    text-decoration: underline;
-    width: 221px;
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    height: 221px;
-    border-radius: 50%;
-    transition: .8s;
     margin-left: -84px;
-    margin-top: -0px;
     background-image: url(davud.jpeg);
-}
-.img4:hover::before{
-    scale: 1;
 }
 .img5::before{
     content: 'Bulbul';
-    position: absolute;
-    margin-top: 70px;
-    scale: 0;
-    text-decoration: underline;
-    width: 221px;
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    height: 221px;
-    border-radius: 50%;
-    transition: .8s;
     margin-left: -73px;
-    margin-top: -0px;
     background-image: url(elmeddin.jpeg);
-}
-.img5:hover::before{
-    scale: 1;
 }
 .img6::before{
     content: 'Nice';
-    position: absolute;
-    margin-top: 70px;
-    scale: 0;
-    text-decoration: underline;
-    width: 221px;
-    color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    height: 221px;
-    border-radius: 50%;
-    transition: .8s;
     margin-left: -88px;
-    margin-top: -0px;
     background-image: url(ramo.jpeg);
-}
-.img6:hover::before{
-    scale: 1;
 }
 .fkq{
     position: absolute;
